@@ -1,27 +1,27 @@
 # Site settings
-title: Your awesome title
-tagline: And Tagline
-email: webcreatelk@gmail.com
+title: Fang Liang
+tagline: Code for thought
+email: fangliang88@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Hi, I’m a professional UI/UX designrer and web developer. 
-  I love being minimal and creative.
-baseurl: "/gaya" # the subpath of your site, e.g. /blog/
-url: "http://webcreate.lk" # the base hostname & protocol for your site
+  Hi, I’m a professional game developer working at Ubisoft and I eat bits and 
+  bytes for breakfast.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://wxvxw.koding.io" # the base hostname & protocol for your site
 logourl: /assets/images/logo.png # Site logo
-author: "Tom Warlker"
+author: "Fang Liang Lee"
 author_thumbnail: "/assets/images/avatar.jpg" # Author avatar
 # Theme customization - please change from the defaults!
 theme:
   # Color for sidebar bar, links, etc
-  highlight_color: "#205081" #205081" # "#272935"
+  highlight_color: "#272935" #205081" # "#272935"
   # Social media links, leave blank to ignore
   social: 
-    github: gayanvirajith
-    twitter: gayanvirajith
-    facebook: gayanvirajith
-    gplus: +gayanvirajith
+    github: wxvxw
+    twitter: wxvxw
+    facebook: wxvxw
+    #gplus: +gayanvirajith
     # dribble: gayanvirajith
-    pinterest: gayanvirajith
+    #pinterest: gayanvirajith
 
   # Enable share buttons on post footer
   show_share_buttons: true
