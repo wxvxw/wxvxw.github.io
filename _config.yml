@@ -1,61 +1,38 @@
-# Site settings
-title: Fang Liang
-tagline: Code for thought
-email: fangliang88@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  Hi, I’m a professional game developer working at Ubisoft and I eat bits and 
-  bytes for breakfast.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://leefangliang.com" # the base hostname & protocol for your site
-logourl: /assets/images/logo.png # Site logo
-author: "Fang Liang Lee"
-author_thumbnail: "/assets/images/avatar.jpg" # Author avatar
-# Theme customization - please change from the defaults!
-theme:
-  # Color for sidebar bar, links, etc
-  highlight_color: "#272935" #205081" # "#272935"
-  # Social media links, leave blank to ignore
-  social: 
-    github: wxvxw
-    twitter: wxvxw
-    facebook: wxvxw
-    #gplus: +gayanvirajith
-    # dribble: gayanvirajith
-    #pinterest: gayanvirajith
+# # # # # # # #
+#   K i k o   #
+# # # # # # # #
 
-  # Enable share buttons on post footer
-  show_share_buttons: true
+# Basic
+name:               "Fang"
 
-  # Show author picure, name and social links on post footer
-  show_author_info: true
+# URL
+baseurl:            ""
+#baseurl:            "" #For Root Domain
+permalink:          /:year/:month/:day/:title.html
 
-  # Disqus comments manager - shortname
-  # disqus_shortname: gaya-webcreate
+# Markdown
+markdown:           redcarpet
 
-  # Google Analytics/Webmaster key, leave blank to ignore
-  google_analytics_key: 
-  google_webmaster_key: 
+# Navigation
+nav:
+  - name:           "About"
+    href:           "/about"
 
-# Build settings
-markdown: kramdown
-
-# Permalinks
-permalink:        pretty
-
-# Pagination config
-paginate: 5
-
-# Files/Folders to be excluded from generated _site folder
-exclude: 
-  - CNAME
-  - Gemfile
-  - Rakefile
-  - README.md
-  - .gitignore
-  - .sass-cache
-  - Gemfile.lock
-
-# Sass conversion configs
+# Sass
 sass:
-  sass_dir: assets/css/_sass
-  style: :compressed
+  style:            :compressed
+
+# Scopes
+defaults:
+  -
+    scope:
+      path:         ""
+      type:         "pages"
+    values:
+      layout:       "page"
+  -
+    scope:
+      path:         ""
+      type:         "posts"
+    values:
+      layout:       "post"
